@@ -1,0 +1,42 @@
+[
+	{
+		"id" : "mercury”,
+		"name" : "Mercury",
+		"headline" : "Mercury is the smallest planet in our solar system"
+	},
+	{
+		“id” : “venus”,
+		“name” : “Venus”,
+		“headline” : “Venus is the second closest planet to the Sun”
+	},
+	{
+		“id” : “earth”,
+		“name” : “Earth”,
+		“headline” : “Earth is the third planet from the Sun”
+	},
+	{
+		“id” : “mars”,
+		“name” : “Mars”,
+		“headline” : “Mars is the fourth planet from the Sun”
+	},
+	{
+		“id” : “jupiter”,
+		“name” : “Jupiter”,
+		“headline” : “Jupiter is the fifth planet from the Sun”
+	},
+	{
+		“id” : “saturn”,
+		“name” : “Saturn”,
+		“headline” : “Saturn is the sixth planet from the Sun”
+	},
+	{
+		“id” : “uranus”,
+		“name” : “Uranus”,
+		“headline” : “Uranus is the seventh planet from the Sun”
+	},
+	{
+		“id” : “Neptune”,
+		“name” : “Neptune”,
+		“headline”: “Neptune is the eighth planet from the Sun”
+	}
+]

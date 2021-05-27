@@ -1,0 +1,34 @@
+[
+	{
+		"id" : 1,
+		"name" : "cover-mercury"
+	},
+	{
+		"id" : 2,
+		"name" : "cover-venus"
+	},
+	{
+		"id" : 3,
+		"name" : "cover-earth"
+	},
+	{
+		"id" : 4,
+		"name" : "cover-mars"
+	},
+	{
+		"id" : 5,
+		"name" : "cover-jupiter"
+	},
+	{
+		"id" : 6,
+		"name" : "cover-saturn"
+	},
+	{
+		"id" : 7,
+		"name" : "cover-uranus"
+	},
+	{
+		"id" : 8,
+		"name" : "cover-neptune"
+	}
+]
