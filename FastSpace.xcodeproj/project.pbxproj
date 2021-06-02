@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2731C103266458400025CC14 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2731C102266458400025CC14 /* TestView.swift */; };
+		2731C10A266466820025CC14 /* Earth.scn in Resources */ = {isa = PBXBuildFile; fileRef = 2731C109266466820025CC14 /* Earth.scn */; };
 		27A70FDB265F02AA009C78F0 /* FastSpaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A70FDA265F02AA009C78F0 /* FastSpaceApp.swift */; };
 		27A70FDD265F02AA009C78F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A70FDC265F02AA009C78F0 /* ContentView.swift */; };
 		27A70FDF265F02AC009C78F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27A70FDE265F02AC009C78F0 /* Assets.xcassets */; };
@@ -28,9 +30,13 @@
 		27DB4076265F4B27000A37F9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DB4075265F4B27000A37F9 /* Constants.swift */; };
 		27DB4079265F53DB000A37F9 /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DB4078265F53DB000A37F9 /* HeadingView.swift */; };
 		27DB407C265F5539000A37F9 /* InsetGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DB407B265F5539000A37F9 /* InsetGalleryView.swift */; };
+		27FC4129265FEBD000F95B47 /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FC4128265FEBD000F95B47 /* InsetFactView.swift */; };
+		27FC412C265FEDF400F95B47 /* ExternalWebLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FC412B265FEDF400F95B47 /* ExternalWebLinkView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2731C102266458400025CC14 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		2731C109266466820025CC14 /* Earth.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Earth.scn; sourceTree = "<group>"; };
 		27A70FD7265F02AA009C78F0 /* FastSpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastSpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27A70FDA265F02AA009C78F0 /* FastSpaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastSpaceApp.swift; sourceTree = "<group>"; };
 		27A70FDC265F02AA009C78F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +60,8 @@
 		27DB4075265F4B27000A37F9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		27DB4078265F53DB000A37F9 /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
 		27DB407B265F5539000A37F9 /* InsetGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGalleryView.swift; sourceTree = "<group>"; };
+		27FC4128265FEBD000F95B47 /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
+		27FC412B265FEDF400F95B47 /* ExternalWebLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWebLinkView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +75,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2731C105266459260025CC14 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				2731C109266466820025CC14 /* Earth.scn */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
 		27A70FCE265F02A9009C78F0 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +102,7 @@
 		27A70FD9265F02AA009C78F0 /* FastSpace */ = {
 			isa = PBXGroup;
 			children = (
+				2731C105266459260025CC14 /* Objects */,
 				27DB4074265F4B18000A37F9 /* Constants */,
 				27A7100F265F2D3C009C78F0 /* Extention */,
 				27A7100A265F2CB3009C78F0 /* Model */,
@@ -134,6 +151,8 @@
 				27DB4070265F46E4000A37F9 /* PlanetListItemView.swift */,
 				27DB4078265F53DB000A37F9 /* HeadingView.swift */,
 				27DB407B265F5539000A37F9 /* InsetGalleryView.swift */,
+				27FC4128265FEBD000F95B47 /* InsetFactView.swift */,
+				27FC412B265FEDF400F95B47 /* ExternalWebLinkView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -147,6 +166,7 @@
 				27A70FFD265F1A42009C78F0 /* VideoListView.swift */,
 				27A71003265F1A67009C78F0 /* GalleryView.swift */,
 				27A70FFA265F1A24009C78F0 /* MainView.swift */,
+				2731C102266458400025CC14 /* TestView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -237,6 +257,7 @@
 				27A70FF4265F17B6009C78F0 /* planets.json in Resources */,
 				27A70FF3265F17B6009C78F0 /* covers.json in Resources */,
 				27A70FF2265F17B6009C78F0 /* video.json in Resources */,
+				2731C10A266466820025CC14 /* Earth.scn in Resources */,
 				27A70FDF265F02AC009C78F0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,12 +276,15 @@
 				27DB4071265F46E4000A37F9 /* PlanetListItemView.swift in Sources */,
 				27A70FFB265F1A24009C78F0 /* MainView.swift in Sources */,
 				27A7100C265F2CCA009C78F0 /* CoverImageModel.swift in Sources */,
+				27FC4129265FEBD000F95B47 /* InsetFactView.swift in Sources */,
 				27DB406E265F4606000A37F9 /* PlanetModel.swift in Sources */,
 				27A71011265F2D4D009C78F0 /* CodableBundleExtention.swift in Sources */,
+				27FC412C265FEDF400F95B47 /* ExternalWebLinkView.swift in Sources */,
 				27A71008265F2B90009C78F0 /* CoverImageView.swift in Sources */,
 				27A70FDD265F02AA009C78F0 /* ContentView.swift in Sources */,
 				27A71001265F1A4D009C78F0 /* GameView.swift in Sources */,
 				27DB4076265F4B27000A37F9 /* Constants.swift in Sources */,
+				2731C103266458400025CC14 /* TestView.swift in Sources */,
 				27A70FDB265F02AA009C78F0 /* FastSpaceApp.swift in Sources */,
 				27DB406B265F45BE000A37F9 /* PlanetDetailView.swift in Sources */,
 				27DB407C265F5539000A37F9 /* InsetGalleryView.swift in Sources */,

@@ -9,37 +9,36 @@ import SwiftUI
 
 struct PlanetListItemView: View {
     
+    let gradient = LinearGradient(gradient: Gradient(colors: [Color.white.opacity(0.5), Color.gray.opacity(0.1)]),
+                                  startPoint: .topLeading,
+                                  endPoint: .bottomTrailing)
+    @State var picked: Bool
+    
     let planet: Planet
     
     var body: some View {
-        HStack(alignment: .center, spacing: 16) {
-            Image(planet.image)
-                .resizable()
-                .scaledToFill()
-                .frame(width: 100, height: 100)
-            
-            VStack(alignment: .leading, spacing: 8) {
-                Text(planet.name)
-                    .font(.title2)
-                    .fontWeight(.heavy)
-                    .foregroundColor(.accentColor)
+        ZStack(alignment: .center) {
+            VStack {
+                Image(planet.image)
+                    .resizable()
+                    .scaledToFit()
+                    .shadow(color: Color(planet.shadow), radius: 6, x: 0.0, y: 0.0)
+                    .scaleEffect(picked ? CGSize(width: 1.2, height: 1.2) : CGSize(width: 1, height: 1))
                 
-                Text(planet.headline)
-                    .font(.footnote)
-                    .multilineTextAlignment(.leading)
-                    .lineLimit(2)
-                    .padding(.trailing, 8)
+                Text(planet.name)
+                    .foregroundColor(.white)
+                    .font(.system(size: 19, weight: .bold, design: .rounded))
+                    
             }
-            Spacer()
-        }//HSTACK
+        }
     }
 }
 
 struct PlanetListItemView_Previews: PreviewProvider {
     
     static var previews: some View {
-        PlanetListItemView(planet: planets[5])
-            .previewLayout(.sizeThatFits)
-            .padding()
+        PlanetListItemView(picked: false, planet: planets[2])
+            .previewLayout(.fixed(width: 150, height: 200))
+            .background(Color.clear)
     }
 }

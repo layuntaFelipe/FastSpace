@@ -16,4 +16,5 @@ struct Planet: Codable, Identifiable {
     let description: String
     let gallery: [String]
     let fact: [String]
+    let shadow: String
 }

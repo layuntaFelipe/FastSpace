@@ -47,8 +47,28 @@ struct PlanetDetailView: View {
                     }
                     .padding(.horizontal)
                     //FACTS
+                    Group {
+                        HeadingView(headingImage: "questionmark.circle", headingText: "Did you know ?")
+                        
+                        InsetFactView(planet: planet)
+                    }
+                    .padding(.horizontal)
                     //DESCRIPTION
+                    Group {
+                        HeadingView(headingImage: "info.circle", headingText: "All about \(planet.name)")
+                        
+                        Text(planet.description)
+                            .multilineTextAlignment(.leading)
+                            .layoutPriority(1)
+                    }
+                    .padding(.horizontal)
                     //LINK
+                    Group {
+                        HeadingView(headingImage: "books.vetical", headingText: "Learn more")
+                        
+                        ExternalWebLinkView(planet: planet)
+                    }
+                    .padding(.horizontal)
                 }//VSTACK
                 .navigationBarTitle("Learn About \(planet.name)", displayMode: .inline)
             })//SCROLL
