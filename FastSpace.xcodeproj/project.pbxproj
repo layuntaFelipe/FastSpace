@@ -24,6 +24,7 @@
 		27A71008265F2B90009C78F0 /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A71007265F2B90009C78F0 /* CoverImageView.swift */; };
 		27A7100C265F2CCA009C78F0 /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A7100B265F2CCA009C78F0 /* CoverImageModel.swift */; };
 		27A71011265F2D4D009C78F0 /* CodableBundleExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A71010265F2D4D009C78F0 /* CodableBundleExtention.swift */; };
+		27D3CA6326672796004F1D9A /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D3CA6226672796004F1D9A /* CustomShape.swift */; };
 		27DB406B265F45BE000A37F9 /* PlanetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DB406A265F45BE000A37F9 /* PlanetDetailView.swift */; };
 		27DB406E265F4606000A37F9 /* PlanetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DB406D265F4606000A37F9 /* PlanetModel.swift */; };
 		27DB4071265F46E4000A37F9 /* PlanetListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DB4070265F46E4000A37F9 /* PlanetListItemView.swift */; };
@@ -54,6 +55,7 @@
 		27A71007265F2B90009C78F0 /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
 		27A7100B265F2CCA009C78F0 /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
 		27A71010265F2D4D009C78F0 /* CodableBundleExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtention.swift; sourceTree = "<group>"; };
+		27D3CA6226672796004F1D9A /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
 		27DB406A265F45BE000A37F9 /* PlanetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDetailView.swift; sourceTree = "<group>"; };
 		27DB406D265F4606000A37F9 /* PlanetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetModel.swift; sourceTree = "<group>"; };
 		27DB4070265F46E4000A37F9 /* PlanetListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetListItemView.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 		27A70FED265F1797009C78F0 /* Video */ = {
 			isa = PBXGroup;
 			children = (
+				27D3CA6226672796004F1D9A /* CustomShape.swift */,
 			);
 			path = Video;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27D3CA6326672796004F1D9A /* CustomShape.swift in Sources */,
 				27A71004265F1A67009C78F0 /* GalleryView.swift in Sources */,
 				27DB4079265F53DB000A37F9 /* HeadingView.swift in Sources */,
 				27A70FFE265F1A42009C78F0 /* VideoListView.swift in Sources */,

@@ -10,6 +10,7 @@ import SwiftUI
 struct ExternalWebLinkView: View {
     
     let planet: Planet
+    var color: String
     
     var body: some View {
         GroupBox {
@@ -20,17 +21,20 @@ struct ExternalWebLinkView: View {
                 
                 Group{
                     Link(planet.name, destination: (URL(string: planet.link) ?? URL(string: "https://google.com"))!)
+                        .foregroundColor(Color(color))
                     Image(systemName: "arrow.up.right.square")
+                        .foregroundColor(Color(color))
                 }
                 .foregroundColor(.accentColor)
             }//HSTACK
         }//BOX
+        .groupBoxStyle(TransparentGroupBox())
     }
 }
 
 struct ExternalWebLinkView_Previews: PreviewProvider {
     static var previews: some View {
-        ExternalWebLinkView(planet: planets[0])
+        ExternalWebLinkView(planet: planets[0], color: "venus-shadow")
             .previewLayout(.sizeThatFits)
             .padding()
     }

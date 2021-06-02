@@ -11,11 +11,12 @@ struct HeadingView: View {
     
     var headingImage: String
     var headingText: String
+    var color: String
     
     var body: some View {
         HStack {
             Image(systemName: headingImage)
-                .foregroundColor(.accentColor)
+                .foregroundColor(Color(color))
                 .imageScale(.large)
             
             Text(headingText)
@@ -28,7 +29,7 @@ struct HeadingView: View {
 
 struct HeadingView_Previews: PreviewProvider {
     static var previews: some View {
-        HeadingView(headingImage: "photo.on.rectangle.angled", headingText: "Emptyness in Pictures")
+        HeadingView(headingImage: "photo.on.rectangle.angled", headingText: "Emptyness in Pictures", color: "venus-shadow")
             .previewLayout(.sizeThatFits)
             .padding()
     }
